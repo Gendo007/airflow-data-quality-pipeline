@@ -41,43 +41,4 @@ graph LR
     style D fill:#f44336,stroke:#c62828,stroke-width:2px,color:#fff
     
    
----
-
-## 🛠️ Tools Used
-
-- Apache Airflow
-- Python
-- JSON
-
----
-
-## 🔍 Key Features
-
-- Automated data pipeline using Airflow DAG
-- Data validation for missing and invalid fields
-- Separation of clean vs bad data
-- Dynamic file partitioning using execution date
-
----
-
-## 📊 Sample Output
-
-- Clean data → `/tmp/data/clean/`
-- Anomalies → `/tmp/data/anomalies/`
-
----
-
-## 🧪 Screenshots
-
-### Airflow DAG (Graph View)
-![DAG Graph](screenshots/airflow_graph.png)
-
-### Successful Pipeline Run
-![Pipeline Success](screenshots/airflow_success.png)
-
----
-
-## 🔗 Where Spark Fits (Future Extension)
-
-In a real-world pipeline, this system can be extended as:
 
