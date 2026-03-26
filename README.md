@@ -122,7 +122,3 @@ graph LR
 ## 👤 Author
 
 Built as part of my Data Engineering learning journey.
-
-
-   
-
