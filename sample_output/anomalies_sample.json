@@ -1,0 +1,29 @@
+[
+    {
+        "booking_id": 1,
+        "anomalies": [
+            "Missing listing_id",
+            "Invalid status: expired"
+        ]
+    },
+    {
+        "booking_id": 2,
+        "anomalies": [
+            "Missing listing_id",
+            "Invalid status: expired"
+        ]
+    },
+    {
+        "booking_id": 3,
+        "anomalies": [
+            "Missing user_id"
+        ]
+    },
+    {
+        "booking_id": 5,
+        "anomalies": [
+            "Missing listing_id",
+            "Missing user_id",
+            "Missing booking_time"
+        ]
+    }
