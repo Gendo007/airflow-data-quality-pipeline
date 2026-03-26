@@ -27,7 +27,6 @@ This pipeline introduces a **data quality layer** that ensures only clean and va
 
 ---
 
-
 ## 🏗️ Pipeline Flow
 
 ```mermaid
@@ -35,12 +34,13 @@ graph LR
     A[generate_bookings] --> B[quality_check]
     B --> C[clean_data]
     B --> D[anomalies]
-
+    
     style A fill:#4CAF50,stroke:#2E7D32,stroke-width:2px,color:#fff
     style B fill:#2196F3,stroke:#0b5e7e,stroke-width:2px,color:#fff
     style C fill:#FFC107,stroke:#FF6F00,stroke-width:2px,color:#000
     style D fill:#f44336,stroke:#c62828,stroke-width:2px,color:#fff
 ```
+
 ## 🛠️ Tools Used
 
 - Apache Airflow
