@@ -61,8 +61,8 @@ graph LR
 
 ## 📊 Sample Output
 
-- Clean data → `/tmp/data/clean/`
-- Anomalies → `/tmp/data/anomalies/`
+- [Clean Data Sample](sample_output/clean_sample.json)
+- [Anomalies Sample](sample_output/anomalies_sample.json)
 
 ---
 
