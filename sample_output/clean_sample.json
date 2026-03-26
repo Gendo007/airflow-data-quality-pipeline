@@ -1,0 +1,14 @@
+{
+        "booking_id": 1,
+        "listing_id": 2,
+        "user_id": 1142,
+        "booking_time": "2026-03-26 11:50:46",
+        "status": "confirmed"
+    },
+    {
+        "booking_id": 5,
+        "listing_id": 2,
+        "user_id": 4571,
+        "booking_time": "2026-03-26 11:50:46",
+        "status": "pending"
+    }
