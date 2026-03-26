@@ -27,9 +27,10 @@ This pipeline introduces a **data quality layer** that ensures only clean and va
 
 ---
 
+
 ## 🏗️ Pipeline Flow
 
-```mermaid
+mermaid
 graph LR
     A[generate_bookings] --> B[quality_check]
     B --> C[clean_data]
@@ -39,6 +40,49 @@ graph LR
     style B fill:#2196F3,stroke:#0b5e7e,stroke-width:2px,color:#fff
     style C fill:#FFC107,stroke:#FF6F00,stroke-width:2px,color:#000
     style D fill:#f44336,stroke:#c62828,stroke-width:2px,color:#fff
-    
+
+
+---
+
+## 🛠️ Tools Used
+
+- Apache Airflow
+- Python
+- JSON
+
+---
+
+## 🔍 Key Features
+
+- Automated data pipeline using Airflow DAG
+- Data validation for missing and invalid fields
+- Separation of clean vs bad data
+- Dynamic file partitioning using execution date
+
+---
+
+## 📊 Sample Output
+
+- Clean data → `/tmp/data/clean/`
+- Anomalies → `/tmp/data/anomalies/`
+
+---
+
+## 🧪 Screenshots
+
+### Airflow DAG (Graph View)
+![DAG Graph](screenshots/airflow_graph.png)
+
+### Successful Pipeline Run
+![Pipeline Success](screenshots/airflow_success.png)
+
+---
+
+## 🔗 Where Spark Fits (Future Extension)
+
+In a real-world pipeline, this system can be extended as:
+
+
+
    
 
